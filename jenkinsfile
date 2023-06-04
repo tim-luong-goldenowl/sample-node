@@ -29,7 +29,7 @@ pipeline {
                     sh "docker push ${DOCKER_IMAGE_NAME_AND_TAG}"
                 }
 
-                //clean to save diskâaâ
+                //clean to save diskâaâa
                 sh "docker image rm ${DOCKER_IMAGE_NAME_AND_TAG}"
             }
         }
