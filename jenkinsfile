@@ -3,8 +3,8 @@ pipeline {
 
     stages {
         stage("try") {
-            agen any
-            
+            agent any
+
             steps {
                 sh "echo 'Hello world'"
             }
