@@ -3,6 +3,8 @@ pipeline {
 
     stages {
         stage("try") {
+            agen any
+            
             steps {
                 sh "echo 'Hello world'"
             }
